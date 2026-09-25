@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "mooncake:incomplete_mooncake_dough" }
+  ],
+  "results": [
+    {
+      "id": "mooncake:mooncake_dough"
+    }
+  ]
+}
