@@ -1,0 +1,20 @@
+{
+  "values": [
+    "mooncake:mooncake_piece",
+    "mooncake:exposed_mooncake_piece",
+    "mooncake:weathered_mooncake_piece",
+    "mooncake:oxidized_mooncake_piece",
+    "mooncake:waxed_mooncake_piece",
+    "mooncake:waxed_exposed_mooncake_piece",
+    "mooncake:waxed_weathered_mooncake_piece",
+    "mooncake:waxed_oxidized_mooncake_piece",
+    "mooncake:hardened_mooncake_piece",
+    "mooncake:exposed_hardened_mooncake_piece",
+    "mooncake:weathered_hardened_mooncake_piece",
+    "mooncake:oxidized_hardened_mooncake_piece",
+    "mooncake:waxed_hardened_mooncake_piece",
+    "mooncake:waxed_exposed_hardened_mooncake_piece",
+    "mooncake:waxed_weathered_hardened_mooncake_piece",
+    "mooncake:waxed_oxidized_hardened_mooncake_piece"
+  ]
+}

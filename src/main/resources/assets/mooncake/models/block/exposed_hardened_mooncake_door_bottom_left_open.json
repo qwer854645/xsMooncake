@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "top": "mooncake:block/exposed_hardened_mooncake_door_top",
+    "bottom": "mooncake:block/exposed_hardened_mooncake_door_bottom"
+  }
+}

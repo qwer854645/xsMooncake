@@ -1,0 +1,9 @@
+{
+  "type": "mooncake:hardened_gear_shaped",
+  "category": "equipment",
+  "key": {
+    "#": { "item": "mooncake:hardened_mooncake" }
+  },
+  "pattern": [ "###", "# #" ],
+  "result": { "id": "mooncake:hardened_mooncake_helmet", "count": 1 }
+}

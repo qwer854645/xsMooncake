@@ -1,0 +1,13 @@
+{
+  "match": {
+    "type": "item",
+    "item": "minecraft:lightning_rod"
+  },
+  "actions": [
+    {
+      "type": "lightning",
+      "delay_ticks": 20,
+      "count": 4
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "mooncake:block/mooncake_shape",
+  "textures": {
+    "top": "mooncake:block/exposed_hardened_mooncake_top",
+    "side": "mooncake:block/exposed_hardened_mooncake_side",
+    "bottom": "mooncake:block/exposed_hardened_mooncake_bottom",
+    "particle": "mooncake:block/exposed_hardened_mooncake_side"
+  }
+}

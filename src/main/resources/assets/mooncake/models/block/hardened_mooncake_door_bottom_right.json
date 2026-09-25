@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "top": "mooncake:block/hardened_mooncake_door_top",
+    "bottom": "mooncake:block/hardened_mooncake_door_bottom"
+  }
+}

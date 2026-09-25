@@ -1,0 +1,10 @@
+{
+  "type": "mooncake:hardened_gear_shaped",
+  "category": "equipment",
+  "key": {
+    "#": { "item": "mooncake:waxed_hardened_mooncake" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "pattern": [ "# #", " # ", " S " ],
+  "result": { "id": "mooncake:waxed_hardened_mooncake_trident", "count": 1 }
+}

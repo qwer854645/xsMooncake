@@ -1,0 +1,9 @@
+{
+  "parent": "mooncake:block/mooncake_shape",
+  "textures": {
+    "top": "mooncake:block/incomplete_mooncake_top",
+    "side": "mooncake:block/incomplete_mooncake_side",
+    "bottom": "mooncake:block/incomplete_mooncake_bottom",
+    "particle": "mooncake:block/incomplete_mooncake_side"
+  }
+}

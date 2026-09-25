@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "mooncake:waxed_weathered_cut_hardened_mooncake" },
+  "result": { "id": "mooncake:waxed_weathered_cut_hardened_mooncake_slab", "count": 2 }
+}

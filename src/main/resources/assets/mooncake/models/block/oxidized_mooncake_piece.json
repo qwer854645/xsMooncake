@@ -1,0 +1,9 @@
+{
+  "parent": "mooncake:block/mooncake_piece_shape",
+  "textures": {
+    "top": "mooncake:block/oxidized_mooncake_top",
+    "side": "mooncake:block/oxidized_mooncake_side",
+    "bottom": "mooncake:block/oxidized_mooncake_bottom",
+    "particle": "mooncake:block/oxidized_mooncake_side"
+  }
+}

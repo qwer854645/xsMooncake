@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mooncake:item/exposed_hardened_mooncake_door"
+  }
+}

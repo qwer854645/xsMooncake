@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "mooncake:block/exposed_cut_hardened_mooncake_slab" },
+    "type=top": { "model": "mooncake:block/exposed_cut_hardened_mooncake_slab_top" },
+    "type=double": { "model": "mooncake:block/exposed_cut_hardened_mooncake" }
+  }
+}

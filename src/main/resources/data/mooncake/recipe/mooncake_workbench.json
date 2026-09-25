@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:crafting_table" },
+    { "item": "mooncake:mooncake_dough" }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mooncake:mooncake_workbench"
+  }
+}

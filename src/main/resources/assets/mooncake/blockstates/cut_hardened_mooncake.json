@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "mooncake:block/cut_hardened_mooncake" }
+  }
+}

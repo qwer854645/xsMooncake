@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": { "#": { "item": "mooncake:waxed_weathered_cut_hardened_mooncake" } },
+  "pattern": ["#  ", "## ", "###"],
+  "result": { "id": "mooncake:waxed_weathered_cut_hardened_mooncake_stairs", "count": 4 }
+}

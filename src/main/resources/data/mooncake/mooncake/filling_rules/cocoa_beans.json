@@ -1,0 +1,6 @@
+{
+  "ingredient": "minecraft:cocoa_beans",
+  "nutrition_bonus": 2,
+  "saturation_bonus": 0.2,
+  "name_key": "filling.minecraft.cocoa_beans"
+}

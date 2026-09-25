@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "mooncake:hardened_mooncake_arrow",
+    "mooncake:exposed_hardened_mooncake_arrow",
+    "mooncake:weathered_hardened_mooncake_arrow",
+    "mooncake:oxidized_hardened_mooncake_arrow",
+    "mooncake:waxed_hardened_mooncake_arrow",
+    "mooncake:waxed_exposed_hardened_mooncake_arrow",
+    "mooncake:waxed_weathered_hardened_mooncake_arrow",
+    "mooncake:waxed_oxidized_hardened_mooncake_arrow"
+  ]
+}

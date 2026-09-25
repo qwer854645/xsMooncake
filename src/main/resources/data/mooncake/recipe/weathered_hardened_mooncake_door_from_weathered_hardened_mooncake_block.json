@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": { "#": { "item": "mooncake:weathered_hardened_mooncake_block" } },
+  "pattern": ["##", "##", "##"],
+  "result": { "id": "mooncake:weathered_hardened_mooncake_door", "count": 3 }
+}

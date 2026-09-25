@@ -1,0 +1,22 @@
+{
+  "match": {
+    "type": "tag",
+    "tag": "mooncake:sculk_fillings"
+  },
+  "effects": [
+    {
+      "effect": "minecraft:blindness",
+      "duration": 300,
+      "amplifier": 0,
+      "chance": 0.9
+    }
+  ],
+  "actions": [
+    {
+      "type": "summon",
+      "entity": "minecraft:warden",
+      "delay_ticks": 20,
+      "chance": 0.12
+    }
+  ]
+}

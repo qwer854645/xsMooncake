@@ -1,0 +1,6 @@
+{
+  "ingredient": "minecraft:golden_apple",
+  "nutrition_bonus": 4,
+  "saturation_bonus": 0.6,
+  "name_key": "filling.minecraft.golden_apple"
+}

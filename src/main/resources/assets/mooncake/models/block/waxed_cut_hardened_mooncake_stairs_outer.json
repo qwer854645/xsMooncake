@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "mooncake:block/cut_hardened_mooncake",
+    "top": "mooncake:block/cut_hardened_mooncake",
+    "side": "mooncake:block/cut_hardened_mooncake"
+  }
+}

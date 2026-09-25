@@ -1,0 +1,15 @@
+{
+  "match": {
+    "type": "item",
+    "item": "minecraft:gunpowder"
+  },
+  "actions": [
+    {
+      "type": "explode",
+      "delay_ticks": 20,
+      "power": 6.0,
+      "destroy_blocks": false,
+      "hurt_self": false
+    }
+  ]
+}

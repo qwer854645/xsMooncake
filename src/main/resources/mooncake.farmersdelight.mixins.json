@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.mooncake.mixin.farmersdelight",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CuttingBoardRecipeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

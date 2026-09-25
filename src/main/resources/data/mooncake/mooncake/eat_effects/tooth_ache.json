@@ -1,0 +1,13 @@
+{
+  "match": {
+    "type": "tag",
+    "tag": "mooncake:mineral_or_stone_fillings"
+  },
+  "effects": [
+    {
+      "effect": "mooncake:tooth_ache",
+      "duration": 300,
+      "amplifier": 1
+    }
+  ]
+}

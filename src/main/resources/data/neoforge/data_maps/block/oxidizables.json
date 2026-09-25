@@ -1,0 +1,85 @@
+{
+  "values": {
+    "mooncake:mooncake": {
+      "next_oxidation_stage": "mooncake:exposed_mooncake"
+    },
+    "mooncake:exposed_mooncake": {
+      "next_oxidation_stage": "mooncake:weathered_mooncake"
+    },
+    "mooncake:weathered_mooncake": {
+      "next_oxidation_stage": "mooncake:oxidized_mooncake"
+    },
+    "mooncake:mooncake_piece": {
+      "next_oxidation_stage": "mooncake:exposed_mooncake_piece"
+    },
+    "mooncake:exposed_mooncake_piece": {
+      "next_oxidation_stage": "mooncake:weathered_mooncake_piece"
+    },
+    "mooncake:weathered_mooncake_piece": {
+      "next_oxidation_stage": "mooncake:oxidized_mooncake_piece"
+    },
+    "mooncake:hardened_mooncake_piece": {
+      "next_oxidation_stage": "mooncake:exposed_hardened_mooncake_piece"
+    },
+    "mooncake:exposed_hardened_mooncake_piece": {
+      "next_oxidation_stage": "mooncake:weathered_hardened_mooncake_piece"
+    },
+    "mooncake:weathered_hardened_mooncake_piece": {
+      "next_oxidation_stage": "mooncake:oxidized_hardened_mooncake_piece"
+    },
+    "mooncake:hardened_mooncake": {
+      "next_oxidation_stage": "mooncake:exposed_hardened_mooncake"
+    },
+    "mooncake:exposed_hardened_mooncake": {
+      "next_oxidation_stage": "mooncake:weathered_hardened_mooncake"
+    },
+    "mooncake:weathered_hardened_mooncake": {
+      "next_oxidation_stage": "mooncake:oxidized_hardened_mooncake"
+    },
+    "mooncake:hardened_mooncake_block": {
+      "next_oxidation_stage": "mooncake:exposed_hardened_mooncake_block"
+    },
+    "mooncake:cut_hardened_mooncake": {
+      "next_oxidation_stage": "mooncake:exposed_cut_hardened_mooncake"
+    },
+    "mooncake:cut_hardened_mooncake_slab": {
+      "next_oxidation_stage": "mooncake:exposed_cut_hardened_mooncake_slab"
+    },
+    "mooncake:cut_hardened_mooncake_stairs": {
+      "next_oxidation_stage": "mooncake:exposed_cut_hardened_mooncake_stairs"
+    },
+    "mooncake:hardened_mooncake_door": {
+      "next_oxidation_stage": "mooncake:exposed_hardened_mooncake_door"
+    },
+    "mooncake:exposed_hardened_mooncake_block": {
+      "next_oxidation_stage": "mooncake:weathered_hardened_mooncake_block"
+    },
+    "mooncake:exposed_cut_hardened_mooncake": {
+      "next_oxidation_stage": "mooncake:weathered_cut_hardened_mooncake"
+    },
+    "mooncake:exposed_cut_hardened_mooncake_slab": {
+      "next_oxidation_stage": "mooncake:weathered_cut_hardened_mooncake_slab"
+    },
+    "mooncake:exposed_cut_hardened_mooncake_stairs": {
+      "next_oxidation_stage": "mooncake:weathered_cut_hardened_mooncake_stairs"
+    },
+    "mooncake:exposed_hardened_mooncake_door": {
+      "next_oxidation_stage": "mooncake:weathered_hardened_mooncake_door"
+    },
+    "mooncake:weathered_hardened_mooncake_block": {
+      "next_oxidation_stage": "mooncake:oxidized_hardened_mooncake_block"
+    },
+    "mooncake:weathered_cut_hardened_mooncake": {
+      "next_oxidation_stage": "mooncake:oxidized_cut_hardened_mooncake"
+    },
+    "mooncake:weathered_cut_hardened_mooncake_slab": {
+      "next_oxidation_stage": "mooncake:oxidized_cut_hardened_mooncake_slab"
+    },
+    "mooncake:weathered_cut_hardened_mooncake_stairs": {
+      "next_oxidation_stage": "mooncake:oxidized_cut_hardened_mooncake_stairs"
+    },
+    "mooncake:weathered_hardened_mooncake_door": {
+      "next_oxidation_stage": "mooncake:oxidized_hardened_mooncake_door"
+    }
+  }
+}

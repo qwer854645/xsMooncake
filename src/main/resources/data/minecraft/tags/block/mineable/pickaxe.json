@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#mooncake:mooncake_blocks",
+    "#mooncake:hardened_mooncake_blocks"
+  ]
+}

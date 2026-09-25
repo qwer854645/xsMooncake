@@ -1,0 +1,12 @@
+{
+  "match": {
+    "type": "food"
+  },
+  "effects": [
+    {
+      "effect": "mooncake:delicious",
+      "duration": 400,
+      "amplifier": 1
+    }
+  ]
+}

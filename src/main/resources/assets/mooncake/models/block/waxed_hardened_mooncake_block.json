@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mooncake:block/hardened_mooncake_block"
+  }
+}

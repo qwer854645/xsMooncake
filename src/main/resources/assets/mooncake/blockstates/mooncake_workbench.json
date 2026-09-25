@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mooncake:block/mooncake_workbench"
+    }
+  }
+}

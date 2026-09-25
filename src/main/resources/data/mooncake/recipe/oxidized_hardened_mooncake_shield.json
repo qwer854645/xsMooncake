@@ -1,0 +1,10 @@
+{
+  "type": "mooncake:hardened_gear_shaped",
+  "category": "equipment",
+  "key": {
+    "#": { "item": "mooncake:oxidized_hardened_mooncake" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "pattern": [ "#I#", "###", " # " ],
+  "result": { "id": "mooncake:oxidized_hardened_mooncake_shield", "count": 1 }
+}

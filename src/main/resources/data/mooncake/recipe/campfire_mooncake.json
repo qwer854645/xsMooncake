@@ -1,0 +1,13 @@
+{
+  "type": "mooncake:campfire_baking",
+  "category": "food",
+  "ingredient": {
+    "item": "mooncake:raw_mooncake"
+  },
+  "result": {
+    "id": "mooncake:mooncake",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

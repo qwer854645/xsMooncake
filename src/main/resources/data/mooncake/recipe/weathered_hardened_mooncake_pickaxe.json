@@ -1,0 +1,10 @@
+{
+  "type": "mooncake:hardened_gear_shaped",
+  "category": "equipment",
+  "key": {
+    "#": { "item": "mooncake:weathered_hardened_mooncake" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "pattern": [ "###", " S ", " S " ],
+  "result": { "id": "mooncake:weathered_hardened_mooncake_pickaxe", "count": 1 }
+}

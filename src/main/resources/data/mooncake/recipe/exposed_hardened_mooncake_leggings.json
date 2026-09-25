@@ -1,0 +1,9 @@
+{
+  "type": "mooncake:hardened_gear_shaped",
+  "category": "equipment",
+  "key": {
+    "#": { "item": "mooncake:exposed_hardened_mooncake" }
+  },
+  "pattern": [ "###", "# #", "# #" ],
+  "result": { "id": "mooncake:exposed_hardened_mooncake_leggings", "count": 1 }
+}

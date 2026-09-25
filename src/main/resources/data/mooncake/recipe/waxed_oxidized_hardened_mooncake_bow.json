@@ -1,0 +1,10 @@
+{
+  "type": "mooncake:hardened_gear_shaped",
+  "category": "equipment",
+  "key": {
+    "#": { "item": "mooncake:waxed_oxidized_hardened_mooncake" },
+    "S": { "item": "minecraft:string" }
+  },
+  "pattern": [ " #S", "# S", " #S" ],
+  "result": { "id": "mooncake:waxed_oxidized_hardened_mooncake_bow", "count": 1 }
+}

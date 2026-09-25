@@ -1,0 +1,58 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "mooncake"
+version = "${mod_version}"
+displayName = "Mooncake"
+authors = "Mooncake"
+description = "Data-driven mooncakes with copper-like oxidation and waxing."
+
+[[mixins]]
+config = "mooncake.mixins.json"
+
+[[mixins]]
+config = "mooncake.farmersdelight.mixins.json"
+
+[[dependencies.mooncake]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mooncake]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mooncake]]
+modId = "jade"
+type = "optional"
+versionRange = "[15.0.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mooncake]]
+modId = "jei"
+type = "optional"
+versionRange = "[19.0.0,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.mooncake]]
+modId = "create"
+type = "optional"
+versionRange = "[6.0.10,6.1.0)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mooncake]]
+modId = "farmersdelight"
+type = "optional"
+versionRange = "[1.2,)"
+ordering = "NONE"
+side = "BOTH"

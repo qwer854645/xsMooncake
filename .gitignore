@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+out/
+run/
+runs/
+**/bin/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local
+*.log
+_release/
+_push_via_api.py

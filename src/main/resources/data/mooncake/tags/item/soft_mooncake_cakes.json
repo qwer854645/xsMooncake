@@ -1,0 +1,12 @@
+{
+  "values": [
+    "mooncake:mooncake",
+    "mooncake:exposed_mooncake",
+    "mooncake:weathered_mooncake",
+    "mooncake:oxidized_mooncake",
+    "mooncake:waxed_mooncake",
+    "mooncake:waxed_exposed_mooncake",
+    "mooncake:waxed_weathered_mooncake",
+    "mooncake:waxed_oxidized_mooncake"
+  ]
+}

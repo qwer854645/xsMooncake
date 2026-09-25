@@ -1,0 +1,8 @@
+{
+  "type": "mooncake:baking",
+  "category": "food",
+  "ingredient": { "item": "mooncake:mooncake" },
+  "result": { "id": "mooncake:hardened_mooncake", "count": 1 },
+  "experience": 0.5,
+  "cookingtime": 200
+}

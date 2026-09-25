@@ -1,0 +1,9 @@
+{
+  "type": "mooncake:hardened_gear_shaped",
+  "category": "equipment",
+  "key": {
+    "#": { "item": "mooncake:waxed_oxidized_hardened_mooncake" }
+  },
+  "pattern": [ "# #", "###", "###" ],
+  "result": { "id": "mooncake:waxed_oxidized_hardened_mooncake_chestplate", "count": 1 }
+}

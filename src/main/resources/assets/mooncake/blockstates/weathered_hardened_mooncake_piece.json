@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=east": { "model": "mooncake:block/weathered_hardened_mooncake_piece" },
+    "facing=south": { "model": "mooncake:block/weathered_hardened_mooncake_piece", "y": 90 },
+    "facing=west": { "model": "mooncake:block/weathered_hardened_mooncake_piece", "y": 180 },
+    "facing=north": { "model": "mooncake:block/weathered_hardened_mooncake_piece", "y": 270 }
+  }
+}

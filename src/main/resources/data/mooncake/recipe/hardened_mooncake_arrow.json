@@ -1,0 +1,11 @@
+{
+  "type": "mooncake:hardened_gear_shaped",
+  "category": "equipment",
+  "key": {
+    "#": { "item": "mooncake:hardened_mooncake" },
+    "S": { "item": "minecraft:stick" },
+    "F": { "item": "minecraft:feather" }
+  },
+  "pattern": [ "#", "S", "F" ],
+  "result": { "id": "mooncake:hardened_mooncake_arrow", "count": 4 }
+}

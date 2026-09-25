@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "minecraft:wheat" },
+    { "item": "minecraft:wheat" },
+    { "item": "minecraft:sugar" },
+    { "item": "minecraft:egg" }
+  ],
+  "results": [
+    {
+      "id": "mooncake:incomplete_mooncake_dough",
+      "count": 2
+    }
+  ]
+}

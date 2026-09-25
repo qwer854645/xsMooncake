@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "mooncake:exposed_hardened_mooncake_block" },
+  "result": { "id": "mooncake:exposed_cut_hardened_mooncake_slab", "count": 2 }
+}

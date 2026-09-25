@@ -1,0 +1,10 @@
+{
+  "type": "mooncake:hardened_gear_shaped",
+  "category": "equipment",
+  "key": {
+    "#": { "item": "mooncake:oxidized_hardened_mooncake" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "pattern": [ "## ", "#S ", " S " ],
+  "result": { "id": "mooncake:oxidized_hardened_mooncake_axe", "count": 1 }
+}

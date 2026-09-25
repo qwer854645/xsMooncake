@@ -1,0 +1,6 @@
+{
+  "ingredient": "minecraft:sweet_berries",
+  "nutrition_bonus": 2,
+  "saturation_bonus": 0.3,
+  "name_key": "filling.minecraft.sweet_berries"
+}

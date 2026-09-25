@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "mooncake:waxed_oxidized_hardened_mooncake_block" },
+  "result": { "id": "mooncake:waxed_oxidized_cut_hardened_mooncake_stairs", "count": 1 }
+}

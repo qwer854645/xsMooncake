@@ -1,0 +1,13 @@
+{
+  "match": {
+    "type": "tag",
+    "tag": "mooncake:wool_fillings"
+  },
+  "effects": [
+    {
+      "effect": "minecraft:slowness",
+      "duration": 300,
+      "amplifier": 1
+    }
+  ]
+}
