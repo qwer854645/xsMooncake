@@ -11,6 +11,7 @@ import com.mooncake.util.MooncakeSeriesGuard;
 import com.simibubi.create.content.kinetics.mixer.CompactingRecipe;
 import com.simibubi.create.content.kinetics.mixer.MixingRecipe;
 import com.simibubi.create.content.processing.basin.BasinBlockEntity;
+import com.simibubi.create.foundation.item.SmartInventory;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -18,13 +19,14 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.level.Level;
-import net.neoforged.neoforge.capabilities.Capabilities;
-import net.neoforged.neoforge.items.IItemHandler;
 
 /**
  * Create basin automation for mooncake dough finishing (mixer) and raw assembly (press/compacting).
  * Marker JSON recipes provide the Create recipe type; this logic attaches crust/fillings and
  * consumes optional extras that vanilla Create matching would leave behind.
+ * <p>
+ * Only reads/writes the basin <em>input</em> inventory — scanning the combined capability also
+ * sees output slots, so a leftover product would incorrectly abort the next cycle.
  */
 public final class CreateMooncakeBasinOps {
     private CreateMooncakeBasinOps() {
@@ -79,10 +81,10 @@ public final class CreateMooncakeBasinOps {
 
     /**
      * Incomplete dough (+ optional valid crust extras only) → finished dough with crust data.
-     * One incomplete per cycle; all present crust extras ride along (up to config max).
+     * One incomplete per cycle; crust extras present in input ride along (up to config max).
      */
     private static boolean applyFinishDough(BasinBlockEntity basin, boolean test) {
-        IItemHandler items = itemHandler(basin);
+        SmartInventory items = basin.getInputInventory();
         if (items == null) {
             return false;
         }
@@ -148,7 +150,7 @@ public final class CreateMooncakeBasinOps {
      * One dough + optional valid fillings → raw mooncake (press / compacting in basin).
      */
     private static boolean applyRawMooncake(BasinBlockEntity basin, boolean test) {
-        IItemHandler items = itemHandler(basin);
+        SmartInventory items = basin.getInputInventory();
         if (items == null) {
             return false;
         }
@@ -213,22 +215,8 @@ public final class CreateMooncakeBasinOps {
         return accept(basin, List.of(raw), false);
     }
 
-    private static IItemHandler itemHandler(BasinBlockEntity basin) {
-        Level level = basin.getLevel();
-        if (level == null) {
-            return null;
-        }
-        return level.getCapability(Capabilities.ItemHandler.BLOCK, basin.getBlockPos(), null);
-    }
-
     private static boolean accept(BasinBlockEntity basin, List<ItemStack> results, boolean simulate) {
-        try {
-            var method = BasinBlockEntity.class.getMethod("acceptOutputs", List.class, List.class, boolean.class);
-            Object ok = method.invoke(basin, results, Collections.emptyList(), simulate);
-            return Boolean.TRUE.equals(ok);
-        } catch (ReflectiveOperationException e) {
-            return false;
-        }
+        return basin.acceptOutputs(results, Collections.emptyList(), simulate);
     }
 
     private record SlotTake(int slot, int count, ItemStack sample) {
